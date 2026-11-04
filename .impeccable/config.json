@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "static/index.html"
+        ],
+        "createdAt": "2026-10-22T08:11:05.543Z",
+        "reason": "Klavye kısayolu .kbd üzerindeki 2px alt kenar tuş-kapağı derinliğini gösterir; küçük işlevsel etikette ayrımı korur ve yalnızca bu bileşene uygulanır."
+      },
+      {
+        "rule": "gpt-thin-border-wide-shadow",
+        "value": "*",
+        "files": [
+          "static/index.html"
+        ],
+        "createdAt": "2026-10-22T08:11:05.560Z",
+        "reason": "Kenar kâğıdı, komut paleti ve kısayol penceresi içerik kartı değil geçici katmanlardır; 1px kenar ile tek yumuşak ofset gölge, sayfadan ayrışmalarını sağlar."
+      }
+    ]
+  }
+}

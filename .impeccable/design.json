@@ -1,0 +1,458 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-22T08:24:12.370847+00:00",
+  "title": "Design System: Türkçe WordNet Arayüzü",
+  "extensions": {
+    "colorMeta": {
+      "spot": {
+        "role": "primary",
+        "displayName": "Ultramarine Spot",
+        "canonical": "#2b3bd6",
+        "tonalRamp": [
+          "#0d1220",
+          "#161e54",
+          "#1e2988",
+          "#2735bc",
+          "#4654db",
+          "#7b85e5",
+          "#b0b7ee",
+          "#e5e8f8"
+        ]
+      },
+      "dark-spot": {
+        "role": "primary",
+        "displayName": "Dark Ultramarine",
+        "canonical": "#8f9cff",
+        "tonalRamp": [
+          "#0d1220",
+          "#323960",
+          "#57619f",
+          "#7c88df",
+          "#9ca8fe",
+          "#b7c0fd",
+          "#d2d8fc",
+          "#edf0fb"
+        ]
+      },
+      "wash": {
+        "role": "primary",
+        "displayName": "Spot Wash",
+        "canonical": "#e7eafb",
+        "tonalRamp": [
+          "#0d1220",
+          "#4b505f",
+          "#8a8d9d",
+          "#c8cbdc",
+          "#e9ecfb",
+          "#edeffb",
+          "#f0f3fb",
+          "#f4f6fb"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cool Paper",
+        "canonical": "#f5f7fb",
+        "tonalRamp": [
+          "#0d1220",
+          "#4f535f",
+          "#92959d",
+          "#d4d6dc",
+          "#f5f7fb",
+          "#f5f7fb",
+          "#f5f7fb",
+          "#f5f7fb"
+        ]
+      },
+      "page": {
+        "role": "neutral",
+        "displayName": "White Page",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0d1220",
+          "#525660",
+          "#97999f",
+          "#dcdddf",
+          "#fefefe",
+          "#fbfcfd",
+          "#f8fafc",
+          "#f6f8fb"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Blue-Black Ink",
+        "canonical": "#0d1220",
+        "tonalRamp": [
+          "#0d1220",
+          "#0d1220",
+          "#0d1220",
+          "#0d1220",
+          "#2b303d",
+          "#686c76",
+          "#a5a8b0",
+          "#e2e5e9"
+        ]
+      },
+      "ink-3": {
+        "role": "neutral",
+        "displayName": "Tertiary Ink",
+        "canonical": "#586079",
+        "tonalRamp": [
+          "#0d1220",
+          "#222839",
+          "#383f53",
+          "#4d556c",
+          "#6d748a",
+          "#969cac",
+          "#bfc3ce",
+          "#e8ebf1"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Hairline Rule",
+        "canonical": "#d6dbe8",
+        "tonalRamp": [
+          "#0d1220",
+          "#464b59",
+          "#808592",
+          "#b9becb",
+          "#dadfea",
+          "#e2e6ef",
+          "#eaedf4",
+          "#f3f5f9"
+        ]
+      },
+      "rule-2": {
+        "role": "neutral",
+        "displayName": "Strong Control Border",
+        "canonical": "#7a849a",
+        "darkCanonical": "#606b89",
+        "purpose": "Interactive control and focus-adjacent borders; decorative hairlines continue to use rule."
+      },
+      "ok": {
+        "role": "feedback",
+        "displayName": "Verdict Green",
+        "canonical": "#0f7a4d",
+        "tonalRamp": [
+          "#0d1220",
+          "#0e302d",
+          "#0e4d3a",
+          "#0f6b47",
+          "#2d8a64",
+          "#6aab92",
+          "#a6ccbf",
+          "#e3eded"
+        ]
+      },
+      "bad": {
+        "role": "feedback",
+        "displayName": "Verdict Red",
+        "canonical": "#b42318",
+        "tonalRamp": [
+          "#0d1220",
+          "#3d171e",
+          "#6c1c1b",
+          "#9c2119",
+          "#bd3f36",
+          "#ce7772",
+          "#dfaead",
+          "#f0e6e9"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headword": {
+        "displayName": "Headword",
+        "purpose": "Entry lemma."
+      },
+      "page-title": {
+        "displayName": "Page title",
+        "purpose": "View titles."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Lesson, frame, sheet and dialog titles."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Synonym buttons."
+      },
+      "body": {
+        "displayName": "Body (Spectral)",
+        "purpose": "Definitions and prose, max 66ch."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Controls and tabs."
+      },
+      "gloss-italic": {
+        "displayName": "Gloss italic",
+        "purpose": "POS, meta, empty states."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Uppercase heads for columns, tables, sections."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Language tags, counts, shortcuts."
+      }
+    },
+    "spacing": [
+      {
+        "name": "space-1",
+        "value": "4px"
+      },
+      {
+        "name": "space-2",
+        "value": "8px"
+      },
+      {
+        "name": "space-3",
+        "value": "12px"
+      },
+      {
+        "name": "space-4",
+        "value": "16px"
+      },
+      {
+        "name": "space-6",
+        "value": "24px"
+      },
+      {
+        "name": "space-8",
+        "value": "32px"
+      },
+      {
+        "name": "space-10",
+        "value": "40px"
+      },
+      {
+        "name": "space-12",
+        "value": "48px"
+      },
+      {
+        "name": "touch-target-min",
+        "value": "40px"
+      }
+    ],
+    "shadows": [
+      {
+        "name": "float",
+        "value": "0 1px 2px rgba(13,18,32,.06), 0 8px 16px -6px rgba(13,18,32,.18)",
+        "purpose": "Side sheet, dialogs, mobile rail. Dark: 0 1px 2px rgba(0,0,0,.4), 0 8px 16px -6px rgba(0,0,0,.6)."
+      },
+      {
+        "name": "node-ambient",
+        "value": "0 1px 2px rgba(13,18,32,.05)",
+        "purpose": "Graph nodes and breadcrumb at rest."
+      },
+      {
+        "name": "wash-ring",
+        "value": "0 0 0 4px var(--wash-2)",
+        "purpose": "Selected graph node; centre node uses 6px wash, fields 3px wash-2."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "The single house easing for sheet, rail, graph and arrival."
+      },
+      {
+        "name": "duration-fast",
+        "value": "150ms",
+        "purpose": "Colour and border changes."
+      },
+      {
+        "name": "duration-mid",
+        "value": "220ms",
+        "purpose": "Focus fade, opacity."
+      },
+      {
+        "name": "duration-layout",
+        "value": "320-340ms",
+        "purpose": "Grid reflow and sheet slide."
+      },
+      {
+        "name": "duration-pan",
+        "value": "550ms",
+        "purpose": "Graph recentre."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sheet-overlay",
+        "value": "1180px"
+      },
+      {
+        "name": "mobile",
+        "value": "860px"
+      },
+      {
+        "name": "compact-topbar",
+        "value": "520px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default control; spot only on hover.",
+      "html": "<button class=\"ds-btn\">Karşılaştır</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border:1px solid var(--rule-2);border-radius:6px;background:var(--page);color:var(--ink);font:550 .9rem var(--font-ui);cursor:pointer}.ds-btn:hover{border-color:var(--spot);color:var(--spot)}.ds-btn:focus-visible{outline:2px solid var(--spot);outline-offset:2px}"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The single primary action in a view.",
+      "html": "<button class=\"ds-btn ds-pri\">Ara</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;gap:8px;height:36px;padding:0 14px;border:1px solid var(--rule-2);border-radius:6px;background:var(--page);color:var(--ink);font:550 .9rem var(--font-ui);cursor:pointer}.ds-btn:hover{border-color:var(--spot);color:var(--spot)}.ds-btn:focus-visible{outline:2px solid var(--spot);outline-offset:2px}.ds-pri{background:var(--spot);border-color:var(--spot);color:var(--on-spot)}.ds-pri:hover{filter:brightness(1.1);color:var(--on-spot)}"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "46px field with spot border and wash halo on focus.",
+      "html": "<label class=\"ds-field\"><input placeholder=\"Sözcük ara\"></label>",
+      "css": ".ds-field{display:flex;align-items:center;height:46px;padding:0 14px;border:1px solid var(--rule-2);border-radius:6px;background:var(--page)}.ds-field:focus-within{border-color:var(--spot);box-shadow:0 0 0 3px var(--wash-2)}.ds-field input{flex:1;border:0;outline:0;background:none;font:inherit;font-size:1.06rem;color:var(--ink);caret-color:var(--spot)}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "Pill filter; pressed state uses wash and spot.",
+      "html": "<button class=\"ds-chip\" aria-pressed=\"true\">İsim</button>",
+      "css": ".ds-chip{display:inline-flex;gap:6px;padding:3px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--page);color:var(--ink-2);font:500 .84rem var(--font-ui);cursor:pointer}.ds-chip:hover{border-color:var(--spot);color:var(--spot)}.ds-chip[aria-pressed=true]{border-color:var(--spot);background:var(--wash);color:var(--spot)}"
+    },
+    {
+      "name": "Rail Tab (thumb-index)",
+      "kind": "nav",
+      "refersTo": "rail-tab-current",
+      "description": "Current tab fused to the page edge with a spot half-circle notch.",
+      "html": "<div style=\"padding-left:10px;background:var(--paper)\"><button class=\"ds-tab\" aria-current=\"page\">Ara</button></div>",
+      "css": ".ds-tab{position:relative;width:200px;padding:9px 18px 9px 12px;border:0;border-radius:6px 0 0 6px;text-align:left;background:var(--page);color:var(--ink);font:650 .95rem var(--font-ui);box-shadow:inset 0 0 0 1px var(--rule)}.ds-tab::after{content:'';position:absolute;right:-1px;top:50%;width:9px;height:9px;margin-top:-4.5px;background:var(--spot);border-radius:50% 0 0 50%/50% 0 0 50%;transform:translateX(50%)}"
+    },
+    {
+      "name": "Sense Row",
+      "kind": "custom",
+      "refersTo": "sense-numeral",
+      "description": "Boxed numeral, grotesk synonyms, serif definition, mirrored translation seam.",
+      "html": "<div class=\"ds-sense\"><span class=\"ds-num\">1</span><div><b class=\"ds-syn\">kitap</b> <i class=\"ds-pos\">isim</i><p class=\"ds-def\">Yazılı veya basılı kâğıtların ciltlenmiş biçimi.</p></div><div class=\"ds-seam\"><span class=\"ds-lg\">EN</span> book</div></div>",
+      "css": ".ds-sense{display:grid;grid-template-columns:34px 1fr 160px;padding:18px 0;border-bottom:1px solid var(--rule);color:var(--ink)}.ds-num{display:grid;place-items:center;width:26px;height:26px;border:1px solid var(--ink);border-radius:3px;font:650 .8rem var(--font-ui)}.ds-syn{font:650 1.08rem var(--font-ui)}.ds-pos{font:italic 400 .98rem var(--font-text);color:var(--ink-3)}.ds-def{margin:5px 0 0;font:400 1.1rem/1.5 var(--font-text)}.ds-seam{border-left:1px solid var(--rule);padding-left:20px;font:550 .95rem var(--font-ui)}.ds-lg{font:600 .66rem var(--font-mono);color:var(--ink-3)}"
+    },
+    {
+      "name": "Relation Line Samples",
+      "kind": "custom",
+      "refersTo": "graph-node",
+      "description": "Five stroke patterns that carry relation category.",
+      "html": "<div class=\"ds-lines\"><span class=\"ds-ln\"></span><span class=\"ds-ln d\"></span><span class=\"ds-ln o\"></span><span class=\"ds-ln b\"></span></div>",
+      "css": ".ds-lines{display:flex;flex-direction:column;gap:8px}.ds-ln{display:block;width:28px;border-top:2px solid var(--ink-2)}.ds-ln.d{border-top-style:dashed}.ds-ln.o{border-top-style:dotted}.ds-ln.b{border-top:4px double var(--ink-2)}"
+    },
+    {
+      "name": "Graph Node",
+      "kind": "card",
+      "refersTo": "graph-node",
+      "description": "White node; central node gets 2px ink border and wash ring.",
+      "html": "<div class=\"ds-gn\"><b>kitap</b><i>isim</i></div>",
+      "css": ".ds-gn{display:flex;flex-direction:column;width:176px;padding:9px 12px 10px;border:1px solid var(--rule-2);border-radius:6px;background:var(--page);color:var(--ink);box-shadow:0 1px 2px rgba(13,18,32,.05)}.ds-gn:hover{border-color:var(--spot)}.ds-gn b{font:700 1rem/1.15 var(--font-ui)}.ds-gn i{font:italic 400 .86rem var(--font-text);color:var(--ink-3)}"
+    },
+    {
+      "name": "Course Navigation Group",
+      "kind": "navigation",
+      "refersTo": "rail-tab-current",
+      "description": "Course-flow heading groups related views without changing their stable shortcut keys.",
+      "html": "<div class=\"tab-group\"><h2 class=\"tab-group-title\">Lecture 2</h2><button class=\"tab\">Morfoloji</button><button class=\"tab\">Belirsizlik</button></div>",
+      "css": ".tab-group{display:flex;flex-direction:column;gap:2px}.tab-group+.tab-group{margin-top:8px;padding-top:8px;border-top:1px solid var(--rule)}.tab-group-title{margin:0 18px 4px 12px;color:var(--ink-3);font:600 .75rem/1.35 var(--font-ui)}"
+    },
+    {
+      "name": "In-page Section Index",
+      "kind": "navigation",
+      "refersTo": "rail-tab-current",
+      "description": "Native disclosure containing links to sections in long lab views.",
+      "html": "<details class=\"section-index\"><summary>Bu görünümde</summary><nav aria-label=\"Morfoloji bölümleri\"><a href=\"#\">Çözümleme</a></nav></details>",
+      "css": ".section-index{margin:18px 0 0;border-bottom:1px solid var(--rule)}.section-index nav{display:flex;flex-wrap:wrap;gap:6px;padding:4px 0 12px}.section-index nav a{display:inline-flex;align-items:center;min-height:34px;padding:4px 9px;border:1px solid var(--rule);border-radius:var(--r-sm)}"
+    },
+    {
+      "name": "Advanced Controls Disclosure",
+      "kind": "disclosure",
+      "refersTo": "field",
+      "description": "Keeps secondary N-gram options available without competing with the primary task.",
+      "html": "<details class=\"ng-advanced\"><summary>Diğer seçenekler</summary><div class=\"ng-ctl\">...</div></details>",
+      "css": ".ng-advanced{flex:1 1 100%;padding-top:8px;border-top:1px solid var(--rule)}.ng-advanced>summary{display:flex;align-items:center;gap:8px;min-height:36px;color:var(--ink-2);font-size:.88rem;font-weight:550;cursor:pointer}"
+    },
+    {
+      "name": "Scrollable Results Region",
+      "kind": "data",
+      "refersTo": "field",
+      "description": "Keyboard-focusable, named local scroller for wide tables and diagrams; prevents page-level horizontal overflow.",
+      "html": "<div class=\"ng-scroll\" role=\"region\" tabindex=\"0\" aria-label=\"Sonraki sözcük tablosu, yatay kaydırılabilir\"><table>...</table></div>",
+      "css": ".ng-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;margin:12px 0}.ng-scroll:focus-visible{outline:2px solid var(--spot);outline-offset:2px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "İki Renkli Sözlük",
+    "overview": "A two-colour printed dictionary language extended into a local Turkish NLP workbench: cool thin paper, blue-black ink, and a single ultramarine spot for interaction and focus. Categories are told apart by line style, not colour. Flat at rest, hairline rules, Schibsted Grotesk for interface and words, Spectral for definitions and lessons, JetBrains Mono for codes. Course-grouped navigation, progressive lab controls, and Araç/Öğrenci mode support both focused tool use and classroom explanation.",
+    "keyCharacteristics": [
+      "One spot colour (ultramarine) on interactive or focused things only.",
+      "Category by line style; ink-grey strokes for all relation kinds.",
+      "Boxed sense numerals, a mirrored TR | EN seam column, a right-hand side sheet, a thumb-index notch on the rail.",
+      "Flat at rest; hairlines for structure, one soft float shadow for overlays.",
+      "Light and dark are the same two-colour system with inverted paper and ink.",
+      "Thirteen views grouped by course flow; long labs use section indexes and local table scrollers.",
+      "Araç mode hides all .stu instructional content; Öğrenci mode reveals it without changing calculations."
+    ],
+    "rules": [
+      {
+        "name": "The One Spot Rule",
+        "body": "Ultramarine marks only what is clickable or currently focused. It never decorates headings, backgrounds or categories.",
+        "section": "colors"
+      },
+      {
+        "name": "The Line-Not-Hue Rule",
+        "body": "A relation family is identified by stroke pattern (solid hierarchy, dashed part, dotted derivation, double antonym, dash-dot cause) in ink-2. Hue is never added to tell categories apart.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiz-Only Signal Rule",
+        "body": "Green and red exist solely for answer feedback; they never appear in navigation or data.",
+        "section": "colors"
+      },
+      {
+        "name": "The Serif-Means Rule",
+        "body": "Spectral carries definitions, examples, glosses and prose; Schibsted carries words-as-objects and structure. Do not set definitions in the grotesk.",
+        "section": "typography"
+      },
+      {
+        "name": "The Tabular Rule",
+        "body": "Numerals are tabular (tnum) at body level so scores and counts align.",
+        "section": "typography"
+      },
+      {
+        "name": "The Ring-Not-Glow Rule",
+        "body": "Focus and emphasis are crisp solid rings in wash or spot, never diffuse glows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do reserve spot for clickable or focused elements and for the primary action.",
+      "Do distinguish relation kinds by stroke pattern in ink-2 (solid, dashed, dotted, double, dash-dot) and show a sample of the line in every legend or group head.",
+      "Do keep definitions and examples in Spectral, words and structure in Schibsted Grotesk, codes and counts in JetBrains Mono.",
+      "Do build new surfaces from hairline rules and the paper / page / sunk steps; use a 2px ink border to mark the one central object.",
+      "Do define every new colour in both the light and dark token sets and verify contrast on both.",
+      "Do keep keyboard focus visible with the 2px spot outline."
+    ],
+    "donts": [
+      "Don't add a second accent hue or colour-code categories.",
+      "Don't use green or red outside quiz feedback.",
+      "Don't wrap content in shadowed cards; use rules and tonal steps.",
+      "Don't use blur or glow shadows for emphasis; use flat wash rings.",
+      "Don't set definitions or prose in the grotesk, or UI chrome in the serif."
+    ]
+  }
+}
